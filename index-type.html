@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Type Racer Game</title>
+  <link rel="stylesheet" href="style-type.css">
+</head>
+<body>
+  <audio id="background-music" autoplay loop>
+    <source src="music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="typing-sound" src="typing.mp3"></audio>
+
+  <div class="container">
+    <h1>Type Racer Game</h1>
+
+    <div class="difficulty-select">
+      <label for="difficulty">Select Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
+    <div class="quote-display" id="quote"></div>
+    <textarea id="quote-input" placeholder="Start typing here..." autofocus></textarea>
+
+    <div class="timer">Time: <span id="time">0</span>s</div>
+    <div class="message" id="message"></div>
+
+    <div class="button-container">
+      <a href="index.html"><button id="reset-btn">Back to Main Menu</button></a>
+    </div>
+  </div>
+
+  <script src="script-type.js"></script>
+</body>
+</html>

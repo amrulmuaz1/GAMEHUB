@@ -1,0 +1,21 @@
+Hi, 
+Open index to play 
+
+Changes that I made
+Rock Paper Scissors
+-Add animated background
+-Add win, draw and lose sound effect
+-Add win and lose animation
+-Add intensive music background
+
+Type racer
+-Add difficulty selection
+-Add typing sound effect
+-Add relaxing vibes music background
+-Add relaxing backgrounds
+
+2025 Amrul Muaz. All rights reserved.
+
+Rock Paper Scissors background music, sound effect are property of Riot Games
+Type Racer background music is property of Nintendo
+All Background Images are created and owned by Amrul Muaz

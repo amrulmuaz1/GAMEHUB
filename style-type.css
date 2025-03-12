@@ -1,0 +1,91 @@
+body {
+  font-family: 'VT323', monospace;
+  background-image: url('bg1.gif');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  background: #3b3f47;
+  background: rgba(59, 63, 71, 0.7); /* 80% opacity */
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.difficulty-select {
+  margin-bottom: 20px;
+}
+
+.difficulty-select label {
+  font-size: 1.2rem;
+}
+
+.difficulty-select select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.quote-display {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.7); 
+  width: 100%;
+  height: 100px;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#quote-input {
+  background: rgba(255, 255, 255, 0.7); 
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.timer,
+.message {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#reset-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset-btn:hover {
+  background-color: #45a049;
+}
